@@ -12,3 +12,15 @@
 .place__pharagraph:first-of-type{
   margin: 0;
 }
+@media screen and (max-width:768px){
+  .place__pharagraph{
+    font-size: 16px;
+  }
+}
+@media screen and (max-width:520px){
+  .place__pharagraph{
+    grid-row: 3;
+    grid-column: 1;
+    width: calc(100vw - 16px * 2);
+  }
+}

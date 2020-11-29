@@ -11,3 +11,10 @@
   margin: 0;
   padding: 0;
 }
+@media screen and (max-width:561px){
+  .cover__title{
+    width: 425px;
+    font-size: 52px;
+    line-height: 1.06;
+  }
+}

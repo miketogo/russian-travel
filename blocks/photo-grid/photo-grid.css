@@ -1,7 +1,23 @@
 .photo-grid{
+  margin: 92px 0 0;
   display: grid;
-  margin: 92px 48px 0;
   gap: 16px;
   grid-template-columns: repeat(auto-fit, 284px);
   grid-template-rows: repeat(auto-fit, 213px);
+  justify-content: center;
 }
+@media screen and (max-width:1024px){
+  .photo-grid{
+    gap: 14px;
+    grid-template-columns: repeat(auto-fit, 300px);
+    grid-template-rows: repeat(auto-fit, 225px);
+  }
+ }
+ @media screen and (max-width:768px){
+   .photo-grid{
+    margin: 88px 0 0;
+    grid-template-columns: repeat(auto-fit, 352px);
+    grid-template-rows: repeat(auto-fit, 264px);
+    gap: 16px;
+   }
+ }

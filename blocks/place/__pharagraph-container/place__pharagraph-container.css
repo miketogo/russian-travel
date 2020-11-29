@@ -1,0 +1,5 @@
+@media screen and (max-width:520px){
+  .place__pharagraph-container{
+    margin: 0 auto;
+  }
+}
