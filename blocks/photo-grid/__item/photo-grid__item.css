@@ -2,15 +2,21 @@
   width: 284px;
   height: 213px;
 }
-@media screen and (max-width:1024px){
+@media screen and (max-width:1160px){
 .photo-grid__item{
   width: 300px;
   height: 225px;
 }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:840px){
   .photo-grid__item{
     width: 352px;
     height: 264px;
+  }
+}
+@media screen and (max-width:520px){
+  .photo-grid__item{
+    width: 288px;
+    height: 216px;
   }
 }

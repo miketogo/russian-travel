@@ -11,3 +11,10 @@
   padding: 0;
   margin: 32px 0 0;
 }
+@media screen and (max-width:520px){
+  .cover__subtitle{
+    font-size: 14px;
+    line-height: 1.14;
+    width: 288px;
+  }
+}

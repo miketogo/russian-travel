@@ -8,3 +8,9 @@
   margin: 0;
   padding: 0;
 }
+@media screen and (max-width:520px){
+  .intro__title{
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}
