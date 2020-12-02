@@ -3,7 +3,6 @@
   cursor: pointer;
   transition: opacity 0.3s ease-in-out;
   opacity: 1;
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -20,7 +19,6 @@
   .footer__copyright{
     justify-self: unset;
     margin: 48px 0 0;
-    font-size: 14px;
     line-height: 1;
   }
 }
