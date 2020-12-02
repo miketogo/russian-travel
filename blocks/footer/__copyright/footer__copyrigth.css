@@ -15,7 +15,7 @@
 .footer__copyright:hover{
   opacity: 0.8;
 }
-@media screen and (max-width:520px){
+@media screen and (max-width:620px){
   .footer__copyright{
     justify-self: unset;
     margin: 48px 0 0;

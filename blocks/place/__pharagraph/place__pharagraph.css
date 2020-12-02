@@ -16,7 +16,7 @@
     font-size: 16px;
   }
 }
-@media screen and (max-width:520px){
+@media screen and (max-width:620px){
   .place__pharagraph{
     grid-row: 3;
     grid-column: 1;
