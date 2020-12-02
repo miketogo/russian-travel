@@ -6,7 +6,7 @@
   text-decoration: none;
   color: #FFFFFF;
   margin: 0;
-  padding: 0
+  padding: 0;
 }
 @media screen and (max-width:520px){
   .header__lang-link-text{
